@@ -1,0 +1,21 @@
+#Device model DGS-3130-30S
+- device: CORE
+  host: 172.21.0.8
+- device: ATC Gjel
+  host: 172.21.0.236
+- device: Zavod Krupino
+  host: 172.21.0.23
+- device: Sadko
+  host: 172.21.0.25
+- device: Pojarnaya Vyshka
+  host: 172.21.0.27
+- device: Bronicy CKC
+  host: 172.21.0.116
+- device: Sofino
+  host: 172.23.0.5
+- device: vertolet
+  host: 172.21.0.161
+- device: Institut obshyga
+  host: 172.21.0.235
+
+
