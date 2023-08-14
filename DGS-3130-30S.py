@@ -25,11 +25,11 @@ def connect_and_set_command(device_param, command, timeout):
         with  telnetlib.Telnet(ip, timeout=timeout) as telnet:
             login = ""
             login += str(telnet.read_until(b'Password:'))
-            telnet.write(b'Intr1X\n')
+            telnet.write(b'password\n')
             login += str(telnet.read_until(b'>'))
             telnet.write(b'enable\n')
             login += str(telnet.read_until(b'Password:'))
-            telnet.write(b'Intr1X\n')
+            telnet.write(b'password\n')
             login += str(telnet.read_until(b'#'))
             if "#" in login:
                 print(out_green("Connect is Ok"))
